@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* .home{
+  max-width: 800px;;
+  margin:auto;
+  padding: 20px;
+} */
+
+.navs{
+  background-color: blanchedalmond;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+#userInput{
+  background-color: darkgrey;
+  border-radius: 5px;
+  border-color: black;
+  border-width: 2px;
+  
+}
+h2{
+  margin: 20px;
+  padding: 20px;
+}
+
+.btn{
+  margin: 20px;
+}
+#userInput{
+  padding: 5px;
+
+}
+
+#uname{
+  margin-right: 100px;
+  font-size: x-large;
+}
+
+.score-section {
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+  padding: 3px 10px;
+  font-weight: bolder;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+.question-section {
+  width: 100%;
+  position: relative;
+
+}
+
+.question-count {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.question-count span {
+  font-size: 28px;
+  padding: 3px 10px;
+  font-weight: bolder;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+.question-text {
+  border: 3px solid #639cf1;
+  padding: 3px 10px;
+  font-weight: bolder;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+
+
+#root .App .content .Sense .answer-section button {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bolder;
+  color: #ffffff;
+  background-color: rgb(230, 36, 213);
+  border-radius: 10px;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 3px solid rgb(145, 8, 122);
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+
+#root .App .content .Sense .answer-section button:hover {
+  background-color: #f6fa1f;
+  color: black;
+}
+
+#root .App .content .Sense .answer-section button:focus {
+  outline: none;
+}
+
+#root .App .content .Sense .answer-section button svg {
+  margin-right: 5px;
+}
+
+.center {
+  margin: auto;
+  width: 55%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.center2{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+
+}
+
+.center3{
+  margin: auto;
+  width: 30%;
+  border: 3px solid green;
+  padding: 10px;
+}
+.centerb{
+  margin: auto;
+  margin-top: 10px ;
+  width: 35%;
+  border: 3px solid green;
+  background-color: rgb(250, 176, 246);
+  padding-left: 82px;
+  padding-top: 20px;
+  border-radius: 8px;
+}
+
+.centerbb{
+  background-color: aqua;
+}
+
+.Sense{
+  margin-top: 60px ;
+  border-radius: 10px;
+  background-color: aqua;
+  background-image: url(./images/quizbg.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.class-hide{
+  visibility: hidden;
+}
+
+.backg{
+  background-color: yellow;
+}
+
+.btnnv:hover{
+  background-color: #ffb005;
+  color: whitesmoke !important;
+
+}
+
+
+#imgc{
+  background-color: #639cf1;
+  border-radius: 10px;
+}
+
+#uname{
+  background-color: #639cf1;
+  color: black;
+}
+
+/* .ytvideo {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+} */
+
+/* .ytvideo iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+} */
+
+.ytvid{
+  margin: auto;
+  width: 50%;
+}
+
+.ytvidint{
+  margin: 6px;
+  padding: 4px;;
+}
+
+.learnm{
+  margin-top: -135px;
+  border-radius: 8px;
+}
+
+
+.bgcolr{
+  background-color: #ffb005;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  width: 20%;
+  text-align: center;
+}
+
+.bgcolr:hover{
+  background-color: aliceblue !important;
+}
+
+.imgt{
+  width: 20px !important;
+  height: 20px !important;
+}

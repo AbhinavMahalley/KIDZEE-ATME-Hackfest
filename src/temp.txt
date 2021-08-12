@@ -1,0 +1,27 @@
+style={{display: 'none'}}
+
+        <Router>
+          <main>
+            <Switch>
+              <Route path = "/" exact />
+              <Route path = "/words" component={Words} />
+            </Switch>
+          </main>
+        </Router>
+
+        import { Route, Link, BrowserRouter, Switch, Router } from 'react-router-dom';
+
+
+        document.getElementById("home-hide").classList.add("class-hide");
+
+        document.getElementById("home-hide").style.display="none";
+
+        import DragDropContainer from './DragDropContainer';
+import DropTarget from './DropTarget';
+
+          <Boxable  targetKey="box" label="bananas" image="https://ik.https://ik.imagekit.io/rjcjzgdentg/images/banana_SywxKP0XD.png.io/rjcjzgdentg/banana_zLf-Rx19O.png" />
+          <Boxable  targetKey="box" label="cheeseburger" image="https://ik.https://ik.imagekit.io/rjcjzgdentg/images/burger_d_V_ClaO7.png.io/rjcjzgdentg/surprise_WMPrZoe-c.png" />
+          <Boxable  targetKey="box" label="orange" image="https://ik.https://ik.imagekit.io/rjcjzgdentg/images/orange_EUJkNNjM_.png.io/rjcjzgdentg/orange_xgo--t1q6.png" />
+          <Boxable  targetKey="box" label="pickle" image="https://https://ik.imagekit.io/rjcjzgdentg/images/pickle_60xPXW6c8.png.imagekit.io/rjcjzgdentg/pickle_syjoJWWsj.png" />
+          <Boxable  targetKey="box" label="gorilla" image="https://ik.imagekit.https://ik.imagekit.io/rjcjzgdentg/images/gorilla_gvp-Twd-5.png/rjcjzgdentg/gorilla_kpQGlf0QY.png" />
+          <Boxable  targetKey="box" label="puppy" image="https://ik.imagekit.io/https://ik.imagekit.io/rjcjzgdentg/images/dog_iitMCjbF7.png/puppy_qJTAZWQ74.png" />
